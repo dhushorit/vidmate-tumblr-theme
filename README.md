@@ -16,7 +16,7 @@ Blog Posts Section (Tumblr dynamic)
 
 About Section
 
-#Copy and paste this into Tumblr:
+# Copy and paste this into Tumblr:
 
 Go to Customize → Edit Theme → Edit HTML
 
