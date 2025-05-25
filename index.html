@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{Title}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #fff; color: #333; }
+    a { text-decoration: none; color: inherit; }
+
+    /* Navigation */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: #fff;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 1.5em;
+      color: #e53935;
+    }
+    nav a {
+      margin-left: 20px;
+      font-weight: 500;
+      color: #333;
+    }
+
+    /* Hero */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(to right, #d9f1ff, #ffffff);
+      padding: 60px 60px;
+    }
+    .hero-content {
+      flex: 1;
+      min-width: 280px;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin: 15px 0;
+    }
+    .download-btn {
+      background: #e53935;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 6px;
+      display: inline-block;
+      font-weight: bold;
+    }
+    .hero img {
+      max-width: 300px;
+      border-radius: 20px;
+      margin-top: 20px;
+    }
+
+    /* Features */
+    .features {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .feature-card {
+      text-align: center;
+      padding: 30px;
+      border-radius: 12px;
+      color: #fff;
+    }
+    .feature1 { background: #2196f3; }
+    .feature2 { background: #4caf50; }
+    .feature3 { background: #ffc107; color: #333; }
+    .feature4 { background: #ff5722; }
+
+    .feature-card img {
+      width: 150px;
+      margin-bottom: 15px;
+    }
+
+    /* Supported Platforms */
+    .platforms {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .platforms img {
+      height: 40px;
+      margin: 10px;
+    }
+
+    /* FAQ */
+    .faq {
+      background: #1e1e1e;
+      color: #fff;
+      padding: 60px 20px;
+    }
+    .faq h2 { margin-bottom: 30px; }
+    .faq-item {
+      margin-bottom: 15px;
+      border-bottom: 1px solid #444;
+      padding-bottom: 10px;
+    }
+    .faq-item summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    /* Blog Section */
+    .blog {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .blog .post {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 30px;
+    }
+    .blog .post h2 {
+      color: #e53935;
+    }
+
+    /* About */
+    .about {
+      padding: 60px 20px;
+      background: #f5f5f5;
+    }
+    .about h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .about img {
+      display: block;
+      margin: 0 auto 20px;
+      width: 100px;
+    }
+    .about p {
+      max-width: 800px;
+      margin: 10px auto;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #eee;
+      color: #333;
+    }
+
+    @media (min-width: 768px) {
+      .hero { flex-wrap: nowrap; }
+      .features { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">VidMate</div>
+  <nav>
+    <a href="#download">Download</a>
+    <a href="#features">Features</a>
+    <a href="#faq">FAQ</a>
+    <a href="#blog">Blog</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="download">
+  <div class="hero-content">
+    <h1>Best Video & Music Downloader</h1>
+    <p>Download videos, music, and images from anywhere</p>
+    <a href="https://apk-dym.vdmapk.com/data/apkv2/vidmate_v5.3126_20250414152807_encrypt.apk?pub=com.nemo.vidmate.app.websitenew_new" class="download-btn">Free Download Now</a>
+    <p><small>100% safe & ad-free APK</small></p>
+  </div>
+  <img src="https://www.vidmateapp.com/public/img/home/new2/pic-header.png" alt="VidMate Phone">
+</section>
+
+<!-- Features -->
+<section class="features" id="features">
+  <div class="feature-card feature1">
+    <img src="https://www.vidmateapp.com/public/img/home/new2/pic1.png" alt="Feature 1">
+    <h3>HD Video & HQ Music</h3>
+    <p>High quality formats supported for best experience.</p>
+  </div>
+  <div class="feature-card feature2">
+    <img src="https://www.vidmateapp.com/public/img/home/new2/pic1.png" alt="Feature 2">
+    <h3>TikTok Support</h3>
+    <p>Download from TikTok and other platforms easily.</p>
+  </div>
+  <div class="feature-card feature3">
+    <img src="https://www.vidmateapp.com/public/img/home/new2/pic1.png" alt="Feature 3">
+    <h3>Status Saver</h3>
+    <p>Download WhatsApp and Insta status updates.</p>
+  </div>
+  <div class="feature-card feature4">
+    <img src="https://www.vidmateapp.com/public/img/home/new2/pic1.png" alt="Feature 4">
+    <h3>All Formats</h3>
+    <p>MP4, MP3, 4K – everything you need, anytime.</p>
+  </div>
+</section>
+
+<!-- Supported Platforms -->
+<section class="platforms">
+  <h2>Download Video/Music from these sites</h2>
+  <img src="https://www.vidmateapp.com/public/img/sites_logo/YT.png" alt="YouTube">
+  <img src="https://www.vidmateapp.com/public/img/sites_logo/tiktok.png" alt="TikTok">
+  <img src="https://www.vidmateapp.com/public/img/sites_logo/instagram.png" alt="Instagram">
+  <img src="https://www.vidmateapp.com/public/img/sites_logo/tumblr.png" alt="Tumblr">
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <h2>FAQ</h2>
+  <details class="faq-item">
+    <summary>How to install VidMate app?</summary>
+    <p>Download APK from our official link and enable "Unknown Sources".</p>
+  </details>
+  <details class="faq-item">
+    <summary>Is VidMate safe to use?</summary>
+    <p>Yes, VidMate is ad-free and malware free.</p>
+  </details>
+</section>
+
+<!-- Blog -->
+<section class="blog" id="blog">
+  <h2>Blog</h2>
+  {block:Posts}
+  <div class="post">
+    {block:Title}<h2><a href="{Permalink}">{Title}</a></h2>{/block:Title}
+    <div>{Body}</div>
+  </div>
+  {/block:Posts}
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+  <h2>About VidMate</h2>
+  <img src="https://vidmate-free.com/images/uploads/2021-11-01/logo-cjt42.png" alt="VidMate Logo">
+  <div class="long-about">
+    <p><strong>VidMate APP</strong> is your ultimate choice as the best downloader which support 1000+ websites including YT, Facebook, Vine, Vimeo, Dailymotion, TikTok etc. Besides the function for videos and music downloading, such a useful downloader also provides the latest series, TV shows and movies in HD format, and free live television online watching.</p>
+<p>&nbsp;</p>
+<p>Looking for the perfect download mate and best manager for your media files which helps you to find out and download any types of videos for offline playing? Here is the amazing VidMate video downloader as the right one for you!</p>
+<p>&nbsp;</p>
+<p><strong>Features of VidMate APP</strong></p>
+<p>&nbsp;</p>
+<p><strong>Unlimited free download</strong></p>
+<p>&nbsp;</p>
+<p>Download all the things free online and take it away with you for offline enjoying. From Hollywood, Bollywood movies to short self-made blog videos, videos and movies all around the world are within easy reach. The free and unlimited download feature means that there’s no need to worry about the fee and you are able to avoid the situation from being unable to find the resources for your favorite videos</p>
+<p>&nbsp;</p>
+<p><strong>Abundant pictures and videos sites supported</strong></p>
+<p>&nbsp;</p>
+<p>As we mentioned above, VidMate APK free download offers you a chance to watch a variety of movies offline. In the meantime, we also provide an access to download from online Video-sharing platform like YT, Facebook, Dailymotion, WhatsApp, Instagram and TikTok. You can find out songs, pictures and videos directly and all in one VidMate online without switching out to others.</p>
+<p>&nbsp;</p>
+<p><strong>In App subscribe</strong></p>
+<p>&nbsp;</p>
+<p>The in-App-subscribe function is another surprise for you. To follow interesting people and to keep up with current events in the new Discover channel, we will let you know at the first minute the new status came out.</p>
+<p>&nbsp;</p>
+<p><strong>Videos &amp; Movies Download &amp; Play</strong></p>
+<p>&nbsp;</p>
+<p>One of the best parts of our App is that it offers free access to HD full movies. It collects and classifies all the movies from a variety of sites, including classic Bollywood movies and latest Hollywood movies, all of which are available for free download. The better blessing in movie section are the functions on each movie's page entitled "People who liked this also liked..." and “same actors”, which help to explore movies of the same or a similar genre. In this way, it saves a lot of time searching and choosing from online complicated movie lists. If you are not sure about whether the movie is what exactly your preference, click into the page and we provide brief introductions and trailers for more detail information. Specially, when any new movies get a touched base on the platform, it will advise and recommend to the individuals.</p>
+<p>&nbsp;</p>
+<p>Experience VidMate latest version which provides you not only fast and smooth download experiences but also smoother watching experiences.</p>
+<p>&nbsp;</p>
+<p><strong>Music Download &amp; Play</strong></p>
+<p>&nbsp;</p>
+<p>For people who love listening to music, VidMate music not only save time from switching among different music apps, but also supports High quality (256kbps) mp3 format download for YT and several million albums and songs for free. The download speed is one of the best in its industry. With the high speed and countless resources, it is undoubtedly your best music player in your phone and you may even set any songs or sound you prefer as your phone ringtone.</p>
+<p>&nbsp;</p>
+<p><strong>Live TV programs and series</strong></p>
+<p>&nbsp;</p>
+<p>Over 200 channels are available including Zee TV, Star World, Channel V and Sahara Online. Collecting a wide range of TV shows in different language, including comedies, realities and other genres, Vidmateapp.com is undoubtedly a paradise for people who love watching TV shows. From comedies to documentaries, all the TV shows are updated frequently and smoothly. You may watch it online or offline at any time anywhere, like when you are waiting a bus at the bus stop or taking the train back home.</p>
+<p>&nbsp;</p>
+<p><strong>Personalized Feeds</strong></p>
+<p>&nbsp;</p>
+<p>Select your favorable location and language and you can get specific recommendation thanks to the effective recommendation system. VidMate 2018 know better your interests and hobbies according to your profile or historical behaviors, and then personalize your own playlist. In this way, every time you open the app, you get what you want and find what you will be interested in.</p>
+<p>&nbsp;</p>
+<p><strong>Better Download Experiences</strong></p>
+<p>&nbsp;</p>
+<p>The connection from any given device to the host server is in a high frequency with the special technology that leads to the improvement for its connectivity and raising the download speed for 5 times. Obviously, this technology is not only occupied by our team as other apps are also doing the same. But we use a more enhanced and outstanding connectivity and we were just talking about the speed in the VidMate old versions. Why not experience the spend in latest version by yourself?</p>
+<p>&nbsp;</p>
+<p><strong>Various Pic Resources</strong></p>
+<p>&nbsp;</p>
+<p>Want to find a piece of creative picture to express your current status or a beautiful photo to use as your wallpaper while cannot find a website to search and download pictures? VidMate latest version offers a tab specific for pictures containing various picture resources. Get different kinds of pictures in high quality and set as your wallpaper if you like. Tell us what kind of picture you want on your android device if you cannot find your desired ones.</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Latest Version of VidMate for Android</strong></p>
+<p>&nbsp;</p>
+<p>VidMate new version available now has fixed several bugs in the previous versions and added new more user-friendly features. Update to the latest version and explore more incredible functions. VidMate for PC and IOS has not launched yet and we are working on it. If you have any suggestion or recommendation on any features or functions feel free to tell us.</p>
+<p>&nbsp;</p>
+<p><strong>Download VidMate APP and Enjoy</strong></p>
+<p>&nbsp;</p>
+<p><strong>VidMate</strong>&nbsp;makes speedy media downloads online easy and possible. It is your go-to-media downloader that makes all available online media just within your reach. When installing VidMate APK, there may be a warning on your phone as you are installing an APK out of Google Play. In order to successfully install, please navigate to Setting &gt; Security, then check on the option “Unknown Sources”. Tap OK on the prompt message and select “Trust”, now you are able to install the app on your phone.</p>
+<p>&nbsp;</p>
+<p>Please notice that the official VidMate APK download is now only available on the official website&nbsp;or 9apps. VidMate APK has not launched on Google Play yet due to Google’s current policy that prohibits downloading videos from YT. We hereby certify that VidMate app does not have any viruses. Please beware of fake websites, identify the official website and feel safe installing the APK. Thank you for your understanding and we do appreciate your trust.</p>
+<p>&nbsp;</p>
+<p><strong>If there are any other questions, please contact as via our E-Mail address:&nbsp; dhushorit@gmail.com</strong></p>
+  </div>
+</section>
+
+<footer>
+  &copy; {Title} – All rights reserved.
+</footer>
+
+</body>
+</html>
