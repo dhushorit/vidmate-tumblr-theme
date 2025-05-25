@@ -21,3 +21,7 @@ About Section
 Go to Customize → Edit Theme → Edit HTML
 
 Paste the full code
+
+# Check demo site: 
+
+https://download-vidmate-app.tumblr.com/
